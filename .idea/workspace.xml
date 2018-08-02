@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40547fd8-d759-48d6-b6a2-85def5df6aea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Laravel + Angular.iml" afterPath="$PROJECT_DIR$/.idea/Laravel + Angular.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.json" afterPath="$PROJECT_DIR$/backend/composer.json" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.lock" afterPath="$PROJECT_DIR$/backend/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/backend/config/app.php" afterPath="$PROJECT_DIR$/backend/config/app.php" />
-      <change beforePath="$PROJECT_DIR$/backend/public/favicon.ico" afterPath="$PROJECT_DIR$/backend/public/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/backend/resources/views/welcome.blade.php" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" afterPath="$PROJECT_DIR$/frontend/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" afterPath="$PROJECT_DIR$/frontend/package.json" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/backend/app/Http/Middleware/RedirectIfAuthenticated.php" />
+      <change beforePath="$PROJECT_DIR$/backend/app/User.php" afterPath="$PROJECT_DIR$/backend/app/User.php" />
+      <change beforePath="$PROJECT_DIR$/backend/config/auth.php" afterPath="$PROJECT_DIR$/backend/config/auth.php" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/api.php" afterPath="$PROJECT_DIR$/backend/routes/api.php" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/web.php" afterPath="$PROJECT_DIR$/backend/routes/web.php" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.spec.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/profile/profile.component.html" afterPath="$PROJECT_DIR$/frontend/src/app/components/profile/profile.component.html" />
       <change beforePath="$PROJECT_DIR$/frontend/src/styles.css" afterPath="$PROJECT_DIR$/frontend/src/styles.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,21 +24,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="317">
+              <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/components/navbar/navbar.component.html">
+      <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/config/auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="238">
+              <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/routes/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/app/Http/Controllers/AuthController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="79" column="46" lean-forward="false" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -61,9 +76,16 @@
         <option value="$PROJECT_DIR$/backend/.env" />
         <option value="$PROJECT_DIR$/backend/config/app.php" />
         <option value="$PROJECT_DIR$/backend/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/frontend/src/styles.css" />
         <option value="$PROJECT_DIR$/frontend/src/app/components/navbar/navbar.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/styles.css" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/components/profile/profile.component.html" />
+        <option value="$PROJECT_DIR$/backend/routes/web.php" />
+        <option value="$PROJECT_DIR$/backend/app/Http/Middleware/RedirectIfAuthenticated.php" />
+        <option value="$PROJECT_DIR$/backend/app/User.php" />
+        <option value="$PROJECT_DIR$/backend/config/auth.php" />
+        <option value="$PROJECT_DIR$/backend/routes/api.php" />
+        <option value="$PROJECT_DIR$/backend/app/Http/Controllers/AuthController.php" />
       </list>
     </option>
   </component>
@@ -192,28 +214,20 @@
             <path>
               <item name="Laravel + Angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="Laravel + Angular" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Laravel + Angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="Laravel + Angular" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Laravel + Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Laravel + Angular" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Laravel + Angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="Laravel + Angular" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontend" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -228,7 +242,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/package.json" />
-    <property name="SearchEverywhereHistoryKey" value="app.php&#9;FILE&#9;file://F:/AngularJS/Laravel + Angular/backend/config/app.php" />
+    <property name="SearchEverywhereHistoryKey" value="Auth&#9;FILE&#9;file://F:/AngularJS/Laravel + Angular/backend/app/Http/Controllers/AuthController.php&#10;api.php&#9;FILE&#9;file://F:/AngularJS/Laravel + Angular/backend/routes/api.php&#10;auth.php&#9;FILE&#9;file://F:/AngularJS/Laravel + Angular/backend/config/auth.php&#10;User&#9;FILE&#9;file://F:/AngularJS/Laravel + Angular/backend/app/User.php&#10;user.php&#9;FILE&#9;file://F:/AngularJS/Laravel + Angular/backend/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php&#10;authen&#9;FILE&#9;file://F:/AngularJS/Laravel + Angular/backend/app/Http/Middleware/RedirectIfAuthenticated.php&#10;app.mod&#9;FILE&#9;file://F:/AngularJS/Laravel + Angular/frontend/src/app/app.module.ts&#10;web.php&#9;FILE&#9;file://F:/AngularJS/Laravel + Angular/backend/routes/web.php&#10;.env&#9;FILE&#9;file://F:/AngularJS/Laravel + Angular/backend/.env&#10;jwt&#9;FILE&#9;file://F:/AngularJS/Laravel + Angular/backend/config/jwt.php&#10;app.php&#9;FILE&#9;file://F:/AngularJS/Laravel + Angular/backend/config/app.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -273,17 +287,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533198360483</updated>
-      <workItem from="1533198363693" duration="2370000" />
+      <workItem from="1533198363693" duration="7105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2370000" />
+    <option name="totallyTimeSpent" value="7105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -291,7 +307,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -345,10 +361,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/.env">
+    <entry file="file://$PROJECT_DIR$/backend/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/components/profile/profile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -367,34 +423,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/composer.json">
+    <entry file="file://$PROJECT_DIR$/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="779">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/styles.css">
+    <entry file="file://$PROJECT_DIR$/backend/app/Http/Middleware/RedirectIfAuthenticated.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="361">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/components/navbar/navbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="95">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/backend/config/jwt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="132" column="56" lean-forward="true" selection-start-line="132" selection-start-column="56" selection-end-line="132" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="44" column="28" lean-forward="false" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/app/Http/Controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="79" column="46" lean-forward="false" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
           <folding />
         </state>
       </provider>

@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/key', function () {
+    return response()->json(env('JWT_SECRET'));
+});
